@@ -6,11 +6,15 @@ As part of our interview process, we'd like you complete this front-end developm
 
 1. Please first fork this repository*.
 
-2. In the root directory you'll find ‚ÄúdeveloperAssessment.pdf‚Äù. It contains a wireframe for a simple layout and instructions on how to complete the exercise.
+2. In the root directory you'll find ìdeveloperAssessment.pdfî. It contains a wireframe for a simple layout and instructions on how to complete the exercise.
 
 3. Please don't use third-party scripts (with the exception of the core jQuery library, (a copy is included in the js folder, or feel free to link to the CDN) and think about reusable anonymous function coding. Any plugins or modules should be custom code written from scratch. Feel free to get creative!
 
-4. Once you have completed your work, please share your forked repo with Erik Ralston at erik.ralston@guitarcenter.com.
+4. Once you have completed your work, please share your forked repo with the manager you've been in contact with:
+
+Erik Ralston at erik.ralston@guitarcenter.com
+or
+Richard Silverio at richard.silverio@guitarcenter.com
 
 We would like this returned within 48 hours. If you have a conflict and know you will need more time, please let us know up front.
 
