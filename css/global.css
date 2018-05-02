@@ -1,0 +1,305 @@
+body, html{
+    font-family: Arial !important;
+    height:700px;
+    margin:auto;
+    padding-top:10px;
+    width:770px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.alert{
+    color: red;
+    text-decoration: line-through;
+}
+
+/* Accordion */
+.accordion{
+    margin:auto;
+    width: 80%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul .inner {
+    display: none;
+    overflow: hidden;
+    padding-left: 1em;
+}
+
+ul li {
+    margin: .5em 0;
+}
+
+ul li a.toggle {
+    background: #000;
+    border-radius: 0.15em;
+    color: #fefefe;
+    display: block;
+    padding: .75em;
+    transition: background .3s ease;
+}
+ul li a.toggle:hover {
+    background:#000;
+}
+
+#callout-box{
+    border: 2px solid #333;
+    float:right;
+    margin:25px 10px;
+    max-width: 170px;
+}
+
+#callout-header{
+    background: #555;
+    color: white;
+    text-align: center;
+    width: 170px;
+}
+
+#callout-body{
+    background: #ccc;
+    font-size: 14px; 
+    height: 223px;
+    padding: 10px;  
+}
+
+.content{
+    background:#eee;
+    width:100%;
+    height:100%;
+    padding: 10px 0 0 0;
+    box-sizing:border-box;
+}
+
+.footer{
+    background:#ccc;
+    border: 2px solid #333;
+    font-size: 11px;
+    height: 25px;
+    margin-top: 45px;
+    padding: 15px 0 0 10px;
+}
+
+#hero{
+    background-image: url("/images/main.jpg");
+    height: 300px;
+    width: 600px;
+}
+
+.left{
+    background:#fff;
+    float:left;
+    height:100%;
+    width:600px;
+}
+  
+/* Nav */
+nav {
+    background:#ccc;
+    border: 1px solid #333;
+    float:left;
+    width: 768px;
+}
+
+nav ul {
+    margin:auto;
+    margin-left: 30px;
+    text-align:left;
+}
+
+nav ul li {
+    display:inline;
+    float:left;
+}
+
+nav ul li:hover {
+    background:#E6E6E6;
+}
+
+nav ul li a {
+    color:#444;
+    display:block;
+    padding:7px 17px 7px;
+}
+
+nav ul li ul {
+    background:#FFF;
+    margin: 0;
+    position:absolute;
+    width:170px;
+}
+
+nav ul li ul li {
+    width:170px;
+}
+
+nav ul li ul li a {
+    color:#444;
+    display:block;
+    padding:3px 10px;
+}
+
+nav ul li ul li:hover a {
+    background:#F7F7F7;
+}
+
+nav ul li ul.fallback {
+    display:none;
+}
+
+nav ul li:hover ul.fallback {
+    display:block;
+}
+
+.right{
+    background:#AAA;
+    float:right;
+    height:100%;
+    width:170px;
+}
+
+/* Tabs */
+.tabs{
+    padding-left: 0;
+}
+
+.tabs li {
+    display:inline;
+    list-style:none;
+}
+
+.tabs a {
+    background:#666;
+    color:#FFF;
+    display:inline-block;
+    padding:5px 27px;
+    text-decoration:none;
+}
+
+.tabs a.active {
+    background:#DDD;
+    color:#000;
+}
+
+.tab-content{
+    background: #DDD;
+    font-size: 14px;
+    height: 316px;
+    margin: auto;
+    margin-top: -16px;
+    overflow-y: scroll;
+    padding: 15px 10px;  
+}
+
+/* On Sale */
+#deals{
+    margin-left:0;
+    width: 100%;
+}
+
+.deal{
+    float: left;
+    padding-right: 105px;
+}
+
+.deal:last-child{
+    padding-right: 0;
+}
+
+.deal-data{
+    max-width: 125px;   
+}
+
+/* New Arrivals */
+.arrival{
+    border: 1px solid #333;
+    margin-top: 20px;
+    overflow: scroll;
+    padding: 10px;
+}
+
+img.arrival{
+    float: left;
+}
+
+.arrival-data{
+    float:right;
+    height: 120px;
+    max-width: 420px;
+}
+
+/* Sign Up */
+div.text { 
+    margin: 0; 
+    padding: 0; 
+    padding-bottom: 10px; 
+} 
+  
+div.text label {
+    display: block;
+    float: left; 
+    font-size: 100%;
+    margin: 0; 
+    padding: 0; 
+    padding-top: .1em; 
+    padding-right: .25em;
+    text-align: right;  
+    width: 12em; 
+} 
+
+div.text input, 
+div.text select {
+    box-sizing:border-box;
+    display: block;
+    font-size: 100%;
+    margin: 0; 
+    padding: 0; 
+    width: 250px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+input#submit{
+    margin-top: 24px;
+    width: 130px;
+}
+
+select#day {
+    float: right;
+    max-width: 110px; 
+}
+
+select#month {
+    float: right;
+    margin-right: 10px;
+    max-width: 130px; 
+}
+
+input:active, 
+input:focus, 
+input:hover,
+select:active, 
+select:focus, 
+select:hover { 
+    background-color: lightyellow; 
+}
+
+#signup-form{
+    float: right;
+    margin: 0 27px;
+}
+
+.form-actions{
+    clear: right;
+    float: right;
+    margin: 10px 150px
+}
+
+
+ 

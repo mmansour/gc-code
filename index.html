@@ -1,14 +1,212 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Guitar Center, Inc. / Front End Web Developer Code Assessment</title>
+		<meta charset="UTF-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+		<script src="js/global.js"></script>
+
+		<link rel="stylesheet" href="css/global.css">
+		<meta name="google" content="notranslate">
 	</head>
 	<body>
-
 		<!-- 
 		Place your layout here, but please add your JavaScript and CSS in external files in the js and styles folders.
 		jQuery may be included if you choose, but all other JS should be custom.
 		-->
+		<nav>
+			<ul>
+				<li>
+					<a href="#">Guitars</a>
+					<ul class="menu">
+						<li><a href="#">Electric Guitars</a></li>
+						<li><a href="#">Acoustic Guitars</a></li>
+						<li><a href="#">Electric Acoustic Guitars</a></li>
+						<li><a href="#">Classical Guitars</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Bass</a></li>
+				<li><a href="#">Drums</a></li>
+				<li><a href="#">Keyboards</a></li>
+				<li><a href="#">DJ & Lighting</a></li>
+				<li><a href="#">Used Gear</a></li>
+				<li><a href="#">Clearance</a></li>
+			</ul>
+		</nav>
+		
+		<div class="content">
 
+			<div class="left">
+
+				<div id="hero">
+					<div id="callout-box">
+						<div id="callout-header">New Guitars</div>
+						<div id="callout-body">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis placerat dolor id aliquet. Lorem ipsum dolor amet 90's poke knausgaard jean shorts four loko wayfarers kale chips bushwick cold-pressed gentrify hashtag fam etsy
+						</div>
+					</div>
+				</div>
+				
+				<ul class='tabs'>
+					<li><a href='#tab1'>On Sale</a></li>
+					<li><a href='#tab2'>New Arrivals</a></li>
+					<li><a href='#tab3'>Sign Up</a></li>
+				</ul>
+				
+				<div id='tab1' class="tab-content">
+					<h3>Headliner Deals</h3>
+
+					<div id="deals">
+						<div class="deal">
+							<img src="images/product1.jpg" alt="New Deal">
+							<div class="deal-data">
+								Gibson Les Paul<br>
+								<span class="alert">Was: $500.00</span><br>
+								Now: $295.00
+							</div>
+						</div>
+
+						<div class="deal">
+							<img src="images/product2.jpg" alt="New Deal">
+							<div class="deal-data">
+								Fender Stratocaster<br>
+								<span class="alert">Was: $500.00</span><br>
+								Now: $295.00 
+							</div>
+						</div>
+
+						<div class="deal">
+							<img src="images/product3.jpg" alt="New Deal">
+							<div class="deal-data">
+								Gibson Les Paul <br>
+								<span class="alert">Was: $500.00</span><br>
+								Now: $295.00
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div id='tab2' class="tab-content">
+					<h3>New Arrivals</h3>
+					<!-- populated by jquery new-arrivals.json -->
+				</div>
+
+				<div id='tab3' class="tab-content">
+					<h3>New Account</h3>
+					<div id="signup-form">
+
+						<div class="text"> 
+							<label for="first-name">First Name: </label> 
+							<input type="text" size="30" name="first-name" id="first-name"/> 
+						</div> 
+						
+						<div class="text"> 
+							<label for="last-name">Last Name: </label> 
+							<input type="text" name="last-name" id="last-name"/> 
+						</div>
+
+						<div class="text"> 
+							<label for="email">Email Address: </label> 
+							<input type="text" name="email" id="email"/> 
+						</div>
+
+						<div class="text"> 
+							<label for="password">Password: </label> 
+							<input type="password" name="password" id="password"/> 
+						</div>
+
+						<div class="text"> 
+							<label for="communication-method">Communication Method: </label> 
+							<select name="communication-method" id="communication-method">
+								<option value="email">Email</option>
+								<option value="phone">Phone</option>
+							</select>
+						</div>
+
+						<div class="text"> 
+							<label for="month">Birthday: </label>
+							<select name="dob" id="day">
+								<option value="volvo">Day</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+							</select>
+							<select name="dob" id="month">
+								<option value="volvo">Month</option>
+								<option value="volvo">January</option>
+								<option value="saab">February</option>
+							</select>
+						</div>
+
+						<div class="text"> 
+							<label>&nbsp;</label>
+							<input type="submit" name="submit" value="Create Account" id="submit" />
+						</div>
+
+						<!-- <div class="form-actions">
+							<input type="submit" name="submit" value="Create Account" />
+						</div> -->
+
+					</div>
+
+				</div>
+				
+			</div>
+			<div class="right">
+				
+				<ul class="accordion">
+				<li>
+					<a class="toggle" href="javascript:void(0);">Item 1</a>
+					<p class="inner">Hello There</p>
+				</li>
+
+				<li>
+					<a class="toggle" href="javascript:void(0);">Item 2</a>
+					<ul class="inner">
+						<li>
+							<a href="#" class="toggle">Inner 1</a>
+							<div class="inner">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+							</div>
+						</li>
+						
+						<li>
+							<a href="#" class="toggle">Inner 2</a>
+							<div class="inner">
+							<p>
+								Maecenas tempus placerat fringilla. 
+							</p>
+							</div>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<a class="toggle" href="javascript:void(0);">Item 3</a>
+					<ul class="inner">
+						<li><a href="http://www.guitarcenter.com">Guitar Center</a></li>
+						<li>Option 2</li>
+						<li>Option 3</li>
+					</ul>
+				</li>
+
+				<li>
+					<a class="toggle" href="javascript:void(0);">Item 4</a>
+					<ul class="inner">
+						<li>Option 1</li>
+						<li>Option 2</li>
+						<li>Option 3</li>
+					</ul>
+				</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="footer">
+			Copyright &copy; Guitar Center Inc. 
+		</div>
+				
 	</body>
 </html>
